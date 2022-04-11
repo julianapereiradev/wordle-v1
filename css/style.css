@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "PatuaOne";
+  src: url(../Fonts/PatuaOne-Regular.ttf);
+}
+
+.header {
+  border-bottom: 1px solid #cecece;
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+  font-family: "PatuaOne";
+  letter-spacing: 0px;
+}
+
+.icons-left,
+.icons-right {
+  margin: auto 10px;
+}
+
+.board__row {
+  text-align: center;
+}
+
+.br__cell {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #dddddd;
+  display: inline-block;
+  margin: 2px;
+  line-height: 50px;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.br__cell--wrong {
+  background-color: #808080;
+  color: white;
+  border: 2px solid #808080;
+}
+
+.br__cell--right {
+  background-color: #6aaa64;
+  color: white;
+  border: 2px solid #6aaa64;
+}
+
+.br__cell--position {
+  background-color: #c9b458;
+  color: white;
+  border: 2px solid #c9b458;
+}
+
+.keyboard__row {
+  text-align: center;
+}
+
+.ky__cell {
+  width: 40px;
+  height: 50px;
+  background-color: #cfcece;
+  border: 2px solid #cfcece;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px;
+  line-height: 50px;
+  font-size: 0.9rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.ky__cell_1 {
+  width: 66px;
+  height: 50px;
+  background-color: #cfcece;
+  border: 2px solid #cfcece;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 2px;
+  line-height: 50px;
+  font-size: 0.9rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
