@@ -1,4 +1,4 @@
-const PALAVRA_CORRETA = "SHALL";
+const PALAVRA_CORRETA = "ARROZ";
 
 let palavraUsuario = [];
 let linha = 1;
