@@ -63,6 +63,19 @@ body.addEventListener("keyup", function (event) {
     el.innerHTML = "";
     palavraUsuario.pop();
   } else if (event.key == "Enter" && palavraUsuario.length == 5) {
+    console.log(palavraUsuario);
+    console.log(palavraUsuario.join(""));
+
+    let achouNoDicionario = dicionario.indexOf(
+      palavraUsuario.join("").toLowerCase()
+    );
+    console.log(achouNoDicionario);
+
+    if (achouNoDicionario == -1) {
+      alert("Palavra inválida!");
+      return;
+    }
+
     let palavraCorreta =
       palavraUsuario.join("").toLowerCase() == PALAVRA_CORRETA.toLowerCase();
     console.log("VALIDACAO:", palavraCorreta);
